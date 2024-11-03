@@ -357,7 +357,7 @@ app.patch('/blotter_report/:id', (req, res) => {
     });
 });
 
-// Route for delete blotter
+// Route for delete blotte
 app.delete('/blotter_report/:id', (req, res) => {
     const reportId = req.params.id;
     const sql = 'DELETE FROM blotter_report WHERE id = ?';
