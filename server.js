@@ -10,10 +10,10 @@ app.use(cors());
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'barangay_management_system',
+    host: 'bkcddm8l2mmddro5bvyt-mysql.services.clever-cloud.com',
+    user: 'uprucnqbu62znzyz',
+    password: 'im0StjwEpktIDqJ0ZmJ3',
+    database: 'bkcddm8l2mmddro5bvyt',
 });
 
 db.connect((err) => {
